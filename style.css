@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Alegreya SC';
+}
+.back1 {
+  position: relative;
+  margin: 0;
+  height: 40rem;
+  background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("images/back1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+.header {
+  position: fixed;
+  margin: 0;
+  height: 5.5rem;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  border-bottom: 2px solid darkred;
+  z-index: 5000;
+}
+.header a img {
+  position: relative;
+  padding: 1.25rem;
+  width: 8rem;
+  height: 3rem;
+  transition: 120ms;
+}
+.header a img:hover {
+  background: darkred;
+  transition: 120ms;
+}
+.header .header_links {
+  position: relative;
+  right: 0;
+  float: right;
+}
+.header .header_links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  float: left;
+  padding: 2rem 4rem 2rem 4rem;
+  transition: 120ms;
+}
+.header .header_links a:first-child {
+  background: darkred;
+  text-shadow: 1px 1px 2px black;
+}
+.header .header_links a:hover {
+  transition: 120ms;
+  background: darkred;
+  text-shadow: 1px 1px 2px black;
+}
+.back1 .back1_content {
+  position: relative;
+  top: 8rem;
+  padding: 1rem;
+  color: darkred;
+  text-align: center;
+}
+.back1 .back1_content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+}
+.back1 .back1_content h2 {
+  font-size: 1.7rem;
+  position: relative;
+  top: -1.4rem;
+  color: white;
+}
+.back1 .back1_content a {
+  position: relative;
+  top: 2.5rem;
+  text-decoration: none;
+  padding: 2.5rem 3.5rem 2.5rem 3.5rem;
+  border: 4px solid darkred;
+  background: darkred;
+  color: white;
+  font-size: 1.2rem;
+  transition: 120ms;
+}
+.back1 .back1_content a:hover {
+  background: rgba(0,0,0,0.3);
+  transition: 120ms;
+}
+.back2 {
+  position: relative;
+  margin: 0;
+  height: 55rem;
+  background: azure;
+  padding: 1rem;
+  color: darkred;
+  text-align: center;
+}
+.back2 table tr td img {
+  width: 15rem;
+  height: 19rem;
+  border: 4px solid darkred;
+  transition: 120ms;
+}
+.back2 table tr td a:hover img {
+  transition: 120ms;
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 16px 22px 0 rgba(0,0,0,0.8);
+}
+.see_all {
+  position: relative;
+  right: 5rem;
+  float: right;
+  text-decoration: none;
+  color: darkred;
+  border-bottom: 2px solid transparent;
+  font-size: 1.4rem;
+  transition: 120ms;
+}
+.see_all:hover {
+  transition: 120ms;
+  border-bottom: 2px solid darkred;
+}
+.back3 {
+  position: relative;
+  margin: 0;
+  height: 69rem;
+  padding: 1rem;
+  background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/back3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.back3 .back3_news img {
+  width: 15rem;
+  height: 12rem;
+  padding: 1rem;
+  float: left;
+  border: 3px solid white;
+  background: rgba(0,0,0,0.6);
+  transition: 120ms;
+}
+.back3 .back3_news {
+  position: relative;
+  top: 2rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 120ms;
+}
+.back3 .back3_news:hover {
+  transition: 120ms;
+  background: rgba(0,0,0,0.5);
+  border: 2px solid darkred;
+}
+.back3 .back3_news:hover img {
+  transition: 120ms;
+  transform: scale(1.1);
+}
+.back4 {
+  position: relative;
+  margin: 0;
+  height: 32rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  text-align: center;
+  color: darkred;
+}
+.back4 table tr td a img {
+  width: 14rem;
+  height: 14rem;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 5px solid darkred;
+}
+.back4 table tr td a {
+  text-decoration: none;
+  color: darkred;
+
+}
+.back4 table tr td a:hover img {
+  transition: 120ms;
+  transform: scale(1.1);
+  box-shadow: 0 0 22px 10px rgba(0,0,0,0.9);
+}
+.footer {
+  position: relative;
+  margin: 0;
+  height: 25rem;
+  padding: 1rem;
+  color: white;
+  background: #080808;
+}
+.footer .footer_1 {
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+  width: 20%;
+  padding: 2rem;
+  float: left;
+}
+.footer .footer_1 a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  margin-bottom: 1.5rem;
+}
